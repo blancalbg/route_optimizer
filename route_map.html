@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_57687e0d2e5cb240adcbf94e7fe364f3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_57687e0d2e5cb240adcbf94e7fe364f3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_57687e0d2e5cb240adcbf94e7fe364f3 = L.map(
+                "map_57687e0d2e5cb240adcbf94e7fe364f3",
+                {
+                    center: [43.16038977087725, -5.8936872432824075],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 7,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3d2c6d2e96e225f6fad4c2b7c8d6be15 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3d2c6d2e96e225f6fad4c2b7c8d6be15.addTo(map_57687e0d2e5cb240adcbf94e7fe364f3);
+        
+    
+            var marker_c036cc7873df2e9edbfdd9da0b6b3415 = L.marker(
+                [42.9218041761208, -5.96140194545837],
+                {
+}
+            ).addTo(map_57687e0d2e5cb240adcbf94e7fe364f3);
+        
+    
+        var popup_7def3222e3e5328b879388ccd831a5dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4976a4cb74d8d495df2c988c016ffa75 = $(`<div id="html_4976a4cb74d8d495df2c988c016ffa75" style="width: 100.0%; height: 100.0%;">Camping Rio Luna<br>Rating: 4.2<br>Price: €15</div>`)[0];
+                popup_7def3222e3e5328b879388ccd831a5dd.setContent(html_4976a4cb74d8d495df2c988c016ffa75);
+            
+        
+
+        marker_c036cc7873df2e9edbfdd9da0b6b3415.bindPopup(popup_7def3222e3e5328b879388ccd831a5dd)
+        ;
+
+        
+    
+    
+            var marker_8bfa0ae784e1d44b95d3ceaf46119f7e = L.marker(
+                [42.62389050733441, -6.494329424702917],
+                {
+}
+            ).addTo(map_57687e0d2e5cb240adcbf94e7fe364f3);
+        
+    
+        var popup_0f53e0d2cda40eb4031f7e13c0c89d74 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ca0f14260df91bd4e067c92bfcbcd9a = $(`<div id="html_4ca0f14260df91bd4e067c92bfcbcd9a" style="width: 100.0%; height: 100.0%;">Cobrana dehesa camping<br>Rating: 0.0<br>Price: €12</div>`)[0];
+                popup_0f53e0d2cda40eb4031f7e13c0c89d74.setContent(html_4ca0f14260df91bd4e067c92bfcbcd9a);
+            
+        
+
+        marker_8bfa0ae784e1d44b95d3ceaf46119f7e.bindPopup(popup_0f53e0d2cda40eb4031f7e13c0c89d74)
+        ;
+
+        
+    
+    
+            var marker_7da3b19fd6ccbe9e0357eeb49b3be29f = L.marker(
+                [43.417293076428194, -6.4918981467762364],
+                {
+}
+            ).addTo(map_57687e0d2e5cb240adcbf94e7fe364f3);
+        
+    
+        var popup_6527636d33b91db0a69547cf49650408 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8db6e4305d86ac23327afb531847e29c = $(`<div id="html_8db6e4305d86ac23327afb531847e29c" style="width: 100.0%; height: 100.0%;">Madreselva - Paraiso natural<br>Rating: 2.8<br>Price: €18</div>`)[0];
+                popup_6527636d33b91db0a69547cf49650408.setContent(html_8db6e4305d86ac23327afb531847e29c);
+            
+        
+
+        marker_7da3b19fd6ccbe9e0357eeb49b3be29f.bindPopup(popup_6527636d33b91db0a69547cf49650408)
+        ;
+
+        
+    
+    
+            var marker_678800a61f961a6a773c74d51c2748d3 = L.marker(
+                [43.46069636379306, -5.438601062926142],
+                {
+}
+            ).addTo(map_57687e0d2e5cb240adcbf94e7fe364f3);
+        
+    
+        var popup_f69c75635a8b49f49d4f3a7457a7ca0a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b71fb2c0af95e5f7575331f9f97ad0c = $(`<div id="html_3b71fb2c0af95e5f7575331f9f97ad0c" style="width: 100.0%; height: 100.0%;">Camping entre arandanos<br>Rating: 2.5<br>Price: €12</div>`)[0];
+                popup_f69c75635a8b49f49d4f3a7457a7ca0a.setContent(html_3b71fb2c0af95e5f7575331f9f97ad0c);
+            
+        
+
+        marker_678800a61f961a6a773c74d51c2748d3.bindPopup(popup_f69c75635a8b49f49d4f3a7457a7ca0a)
+        ;
+
+        
+    
+    
+            var marker_da79b9ab0a8e2d24d70048df10fbcd4a = L.marker(
+                [43.37826473070982, -5.08220563654837],
+                {
+}
+            ).addTo(map_57687e0d2e5cb240adcbf94e7fe364f3);
+        
+    
+        var popup_742a150cecda4b18cf49975bdddddc9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff4672352a83b5d9dfd76e9d74258abd = $(`<div id="html_ff4672352a83b5d9dfd76e9d74258abd" style="width: 100.0%; height: 100.0%;">Hotel Granja Paraíso – Camper Area Picos de Europa<br>Rating: 4.1<br>Price: €30</div>`)[0];
+                popup_742a150cecda4b18cf49975bdddddc9a.setContent(html_ff4672352a83b5d9dfd76e9d74258abd);
+            
+        
+
+        marker_da79b9ab0a8e2d24d70048df10fbcd4a.bindPopup(popup_742a150cecda4b18cf49975bdddddc9a)
+        ;
+
+        
+    
+    
+            var poly_line_7b900d129a65cb68c7ae62578ba09be0 = L.polyline(
+                [[42.9218041761208, -5.96140194545837], [42.62389050733441, -6.494329424702917], [43.417293076428194, -6.4918981467762364], [43.46069636379306, -5.438601062926142], [43.37826473070982, -5.08220563654837]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 2.5}
+            ).addTo(map_57687e0d2e5cb240adcbf94e7fe364f3);
+        
+</script>
+</html>
