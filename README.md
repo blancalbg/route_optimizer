@@ -11,5 +11,6 @@ You can filter campings by price, rating, and number of stops, then view the rou
 
 ### Run locally
 `pip install -r requirements.txt`
+
 `streamlit run app.py`
 
