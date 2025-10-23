@@ -1,4 +1,4 @@
-# North of Spain camping route optimizer
+# Northern Spain camping route optimizer
 
 A simple Streamlit app that builds an optimized camping route across Northern Spain.
 You can filter campings by price, rating, and number of stops, then view the route on an interactive map.
